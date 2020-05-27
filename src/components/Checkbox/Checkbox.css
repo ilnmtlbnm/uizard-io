@@ -6,8 +6,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 5px;
-	box-shadow: 0px 2px 4px 0px rgba(3, 3, 3, 0.1);
-	border: 1px solid rgba(0, 188, 212, 1);
+	border: 1px solid rgba(255, 146, 79, 1);
 	background-color: rgba(255, 255, 255, 1);
 }
 
@@ -18,7 +17,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 14px;
-	color: rgba(0, 188, 212, 1);
+	color: rgba(255, 146, 79, 1);
 }
 
 .checkbox-input {

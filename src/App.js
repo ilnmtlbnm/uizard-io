@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import SearchExampleJpg from './containers/SearchExampleJpg';
-import TravelExampleJpg from './containers/TravelExampleJpg';
-import CheckoutExampleJpg from './containers/CheckoutExampleJpg';
+import Artboard1Jpg from './containers/Artboard1Jpg';
+import Artboard2Jpg from './containers/Artboard2Jpg';
+import Artboard3Jpg from './containers/Artboard3Jpg';
 
 const App = () => (
 	<BrowserRouter>
 		<Switch>
-			<Route path="/" exact component={SearchExampleJpg} />
-			<Route path="/travel-example-jpg" component={TravelExampleJpg} />
-			<Route path="/checkout-example-jpg" component={CheckoutExampleJpg} />
+			<Route path="/" exact component={Artboard1Jpg} />
+			<Route path="/2-jpg" component={Artboard2Jpg} />
+			<Route path="/3-jpg" component={Artboard3Jpg} />
 		</Switch>
 	</BrowserRouter>
 );

@@ -1,14 +1,12 @@
 .button-1 {
 	margin: 10px;
-	font-family: Montserrat;
+	font-family: Lato;
 	font-size: 14px;
 	letter-spacing: 0px;
 	text-align: center;
 	text-transform: none;
-	color: rgba(255, 255, 255, 1);
-	padding: 15px 15px 15px 15px;
-	border-radius: 3px;
-	box-shadow: 0px 0px 10px 0px rgba(3, 3, 3, 0.1);
-	border: 0;
-	background-color: rgba(3, 3, 3, 1);
+	color: rgba(255, 146, 79, 1);
+	padding: 10px 40px 10px 40px;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 146, 79, 1);
 }
